@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sparks | Issue #9</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/ico" href="assets/images/other_images/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- vegas bg -->
+    <link href="assets/js/vegas/jquery.vegas.min.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <!-- intro animations -->
+    <link href="assets/js/wow/animate.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- lightbox -->
+    <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet">
+
+    <!-- styles for this template -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- place your extra custom styles in this file -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <!-- data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined, and when background change is disabled for mobile -->
+  <!-- data-overlay: "true" - semi-transparent black overlay on top of bg enabled, "false" - disabled -->
+  <!-- data-overlay-opacity: set the opacity/transparency of the black overlay -->
+  <body data-default-background-img="assets/images/issue10/cover.jpg" data-overlay="true" data-overlay-opacity="0.35">
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+      <!-- Left Sidebar -->
+      <section id="left-sidebar">
+        
+        <!-- ==================================================================
+        LOGO 
+        ==================================================================  -->
+        <!-- change the img src to your logo -->
+        <div class="logo">
+          <a href="#intro" class="link-scroll"><img src="assets/images/other_images/logo.png" alt="Sparks Magazine"></a>
+        </div><!-- .logo -->
+        <!-- ==================== END: LOGO ==================== -->
+
+        <!-- Menu Icon for smaller viewports -->
+        <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+        <!-- ==================================================================
+        MAIN MENU 
+        ==================================================================  -->
+        <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+             - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+             Hijab, Masculinity, Tattoo, Eating Competition
+             - set href of each <a> to the id of the .section-wrapper to link to -->
+        <ul id="main-menu">
+          <li id="menu-item-text" class="menu-item scroll"><a href="#text">Masculinity</a></li>
+          <li id="menu-item-carousel" class="menu-item scroll"><a href="#carousel">Hijab</a></li>
+          <li id="menu-item-oneOfUs" class="menu-item scroll"><a href="#oneOfUs">Tatoo</a></li>
+          <li id="menu-item-fashion" class="menu-item scroll"><a href="#fashion">Eating Competition</a></li>
+          <li id="menu-item-tabs" class="menu-item scroll"><a href="#tabs">Minority Solidarity</a></li>
+          <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Download</a></li>          <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
+          <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+        </ul><!-- #main-menu -->
+        <!-- ==================== END: MAIN MENU ==================== -->
+
+      </section><!-- #left-sidebar -->
+      <!-- end: Left Sidebar -->
+
+      <!-- ==================================================================
+      MAIN CONTENT
+      ==================================================================  -->
+      <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+           - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+      <section id="main-content" class="clearfix">
+        
+        <!-- ==================== SECTION TYPE: Intro Text ==================== -->
+        <!-- This type of section should contain heading and intro paragraph. It can also include links to other sections -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/issue10/cover.jpg">
+          <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <!-- <p align="left"> text in .feature-text is larger  -->
+                <section class="feature-text">
+                  <h1>Embody</h1>
+                  <h2>Issue 10</h2>
+                  <p><a href="http://www.sparks-mag.com/" >Sparks Magazine.</a></p>
+                  <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                  <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg">Start Reading</a></p>
+                </section>
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Intro Text ==================== -->
+
+        <!-- ==================== SECTION TYPE: Text / Generic ==================== -->
+        <!-- This type of section should contain generic content (text, image, etc) -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="text" class="section-wrapper clearfix" data-custom-background-img="assets/images/issue10/masculinity/Male8.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title">Redefining Masculinity</h1>
+                <h3>By Alexandria Ng</h3>
+                <p class="feature-paragraph">Sweat drips down his chiseled jaw line as he flexes his muscles and lifts weights. He knows that after he finishes at the gym, he must go to the bar, discuss football with his bros, check out girls at the bar and eat his body weight’s worth in meat ­ all the while hiding his inner feelings rather than openly talk about them.</p>
+                <blockquote><strong>“The femininity or background placement of minorities is to reduce the obvious perception of threat.”</strong></blockquote>
+                
+                <!-- to make a popup/modal link add an onClick function call to the function: 
+                     - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-sm">read full story</a></p>
+                
+                <!-- content which will be shown in the popup/modal when clicking on the above link 
+                     - it is important to set a unique id -->
+                <div class="content-to-populate-in-modal" id="modal-content-1">
+                  <h1>Redefining Masculinity</h1>
+                  <h3>By Alexandria Ng</h3>
+                  <p align="left">Sweat drips down his chiseled jaw line as he flexes his muscles and lifts weights. He 
+
+                  knows that after he finishes at the gym, he must go to the bar, discuss football with his 
+
+                  bros, check out girls at the bar and eat his body weight’s worth in meat ­ all the while 
+
+                  hiding his inner feelings rather than openly talk about them.</p>
+
+                  <p align="left">The culture was created by black and Latino inner-city youth trying to express themselves artistically by speaking on discrimination and the harsh conditions that plagued the South Bronx in the 1970s, according to Ibram X. Kendi, a University of Florida professor, who will teach a history of hip-hop course in Spring 2016.</p>
+                  <img data-img-src="assets/images/issue10/masculinity/Male51.jpg" class="lazy rounded_border hover_effect pull-right" alt="HipHop Group">
+                  <p align="left">This image of conventional manliness has pervaded society through a variety of platforms in modern American media.</p>
+
+                  <p align="left">Whether advertisements show clean­cut men attracting the attention of all the ladies because of a certain “manly” cologne, or half­naked models showing off Calvin Klein boxer briefs, this notion of male masculinity centers around a Eurocentric ideal—that to be considered handsome, one must be buff and Caucasia.</p>
+
+                  <p align="left">
+                    Meanwhile, Asian American masculinity is often toned down and quasi­feminized in the
+
+                    media. This, of course, ignores the growing minority’s ability to redefine what it means 
+
+                    to be masculine, said University of Florida political science professor Samuel Stafford, 
+
+                    who teaches a course on ethnic migration.
+                  </p>
+                  <blockquote>
+                  “The femininity or background placement of minorities is to reduce the obviousperception of threat.”
+                  </blockquote>
+                  <p align="left">
+                      Such threat, according to Stafford, reflects the idea that within the next few centuries, the complexion and culture of this country is going to change. This phenomenon is sometimes referred to as “the browning of America.”
+                  </p>
+                  <p align="left">According to this theory, the rising population of different ethnic groups will eclipse the traditional “American Caucasian” person, and therefore challenge the status quo.</p>
+                  <p align="left"><img data-img-src="assets/images/issue10/masculinity/Male7.jpg" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">
+                  <p align="left">However, this idea of preserving conventional white male masculinity is not one that has surfaced in recent studies, but rather, one that has been persisting for decades.
+                  </p>
+                  <p align="left">Jeshow Yang, a University of Florida’s Queer Asians and Pacific Islanders organization 
+
+                  facilitator and Asian Pacific Islander American Affairs ambassador, agrees with 
+
+                  Stafford’s viewpoint, believing that it even started in the post­World War II era
+                  .</p>
+                 <p align="left">“After World War II, white males didn’t want Asian men to seem masculine and strong, 
+
+so it would make white men look better,” Yang said. “That’s when Asian American men 
+
+began to be seen as more effeminate and emasculated so they would seem weak. 
+
+Femininity was attached to certain things like drinking tea, doing yoga or listening to 
+
+classical music, so if you did any of these things, people would consider you feminine.”</p>
+                    <img data-img-src="assets/images/issue10/masculinity/Male4.jpg" class="lazy rounded_border hover_effect pull-right" alt="Lorem Ipsum">
+
+                      <p align="left">Finley’s passion led him to apply to UF 
+
+                    after finding out there were multiple 
+
+                    hip-hop dance groups on campus. He 
+
+                    graduated with his bachelor’s in sociology and is currently getting his master’s in  management.</p>
+
+                    <p align="left">“I don’t know what I would be doing
+
+                    without hip-hop,” Finley said. “Probably 
+
+                    living a more sheltered life -- not
+
+                    developing myself more as an individual.”
+                    </p>
+                                    
+                  <p align="left">
+                      However, with the increase of diversity awareness, the issue of underrepresentation of minority groups in media has become an emerging topic of conversation.
+                  </p>
+                <p align="left">
+                    “With what we grew up with, masculinity is idealized European features, like how 
+
+                    handsomeness is based on extremely muscular Greek statues,” Yang said. “In media, 
+
+                    Asian American men often fill those stereotypical background roles, especially in 
+
+                    comedy.”
+                  </p>
+                  <p align="left">
+                    Mainstream American culture within the film industry tends to cast the lead male role as a tall, athletic­looking white man, Yang said. Seldom do Asian American men secure a part as the main character. Rather, they are frequently reduced to the socially awkward nerd who can’t get the girl or the friend whose only purpose is to provide comic relief.
+                  </p>
+                  <p align="left">
+                    The stereotype that Asians have a greater mental prowess than bodily strength defy
+
+                    society’s expectations of conventional masculinity ­  causing many Asian Americans to 
+
+                    be overlooked when considering what defines “a real man” in the physical sense.
+                  </p>
+                  <p align="left">
+                    Although traditional manliness focuses on the physical, masculinity is a frame of mind and comes from within, Stafford said. Although western culture equivocates masculinity with strength, it could also encompass confidence, interaction with one’s environment, as well as how one moves through space, Stafford said.
+                  </p>
+                  <p align="left">
+                    “Being a man means being committed to a long­term vision, being confident, being 
+
+                    grounded in your values and have your actions align with your commitments,” University 
+
+                    of Florida freshman Dylan Nong said. “To me, being a man is being vulnerable and not 
+
+                    wearing a mask.”
+                  </p>
+                  <p align="left">
+                    “Being a man means being committed to a long­term vision, being confident, being 
+                    grounded in your values and have your actions align with your commitments,” University of Florida freshman Dylan Nong said. “To me, being a man is being vulnerable and not wearing a mask.”
+                  </p>
+                  <img data-img-src="assets/images/issue10/masculinity/Male2.jpg" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">
+
+                  <p align="left">
+                    This mask refers to the feeling of needing to put up a front to be seen by others as a true man. Whereas the societal stereotype may include talking about sports, picking up women at local bars and building tool sheds from scratch, the less­mentioned facet of masculinity includes being mature in one’s development as a human being, Nong said.
+                  </p>
+                  <p align="left">
+                    “In a sense, masculinity is being mature, wise and open­minded,” said University of 
+
+                    Florida senior Ravik Samaroo, a member of the multicultural fraternity Sigma Beta Rho. 
+
+                    “Everyone is slightly different when it comes to working out, but not everything can get 
+
+                    that big; everybody has their own potential with their body, so when it comes to the 
+
+                    physical aspect, you can’t discriminate. That’s why I stress intelligence.”
+                  </p>
+                  <p align="left">
+                    The ongoing generalization that Asian American men are usually shorter, smaller and
+
+                    weaker than men of other ethnicities contributes to a possible lack of self­esteem in 
+
+                    Asian boys who grow up in America and feel that they do not measure up when 
+
+                    compared to their Caucasian peers, said University of Florida freshman Victor Lin.
+                  </p>
+                  <p align="left">
+                    “I’ve always been a really skinny person and sometimes I didn’t feel that confident,” Lin said. “We live in America, which is predominantly white, and they have roots in European culture, so the media here is still tied to that. We [Asians] are different, but we have our own culture where our standards of handsome men are different.”
+                  </p>
+                  <p align="left">Just as beauty for women is defined differently around the world, beauty standards for men also vary.</p>
+                  <p align="left">
+                    According to BuzzFeed News, Asian countries such as South Korea and India 
+
+                    encourage soft facial features, makeup wearing and skin lightening among men. The 
+
+                    emphasis on male cosmetics has made the Asia Pacific region the largest consumer of 
+
+                    men’s skincare products, male cosmetic surgery hot spot and men’s fashion.
+                  </p>
+                <p align="left">
+                  However, the Asian male tendency to dress themselves in fashion­forward clothing as  an emerging trend of metrosexuality can be seen as femininity in America.
+                </p>
+
+                <p align="left">
+                  Another persisting stereotype against Asian American men and the measure of their 
+
+masculinity has to do with the size of their genitalia. Although there is little scientific 
+
+evidence to prove this theory, this idea continues to be circulated throughout popular 
+
+culture.
+                </p>
+                <p align="left">
+                  “It goes back to controlling to minimize fear,” Stafford said. “It is a way by the majority western culture to downgrade or minimize the perceived threat or fear of a seemingly intellectually superior identifiable group, especially males.”
+                </p>
+                <p align="left">
+                 Despite similarities in what is considered handsome and manly in other countries, such  as a lean, muscular body, American media rarely portrays Asian men as sexual beings or the image of masculinity. The stereotype that Asians are purely academic persists even into the 21st century, Samaroo said.
+                </p>
+                <p align="left">
+                  “[Asian Americans] shouldn’t be offended; every culture, every ethnicity has their own 
+
+stereotypes, whether it’s true or not,” Samaroo said. “There will always be stereotypes, 
+
+and that will never change, but as long as people don’t let it affect them, then I don’t 
+
+really have a problem with it.”
+                </p>
+                <p align="left">
+                  As more Asian Americans come into the spotlight, they prove that Asian men are well-
+rounded and cannot be generalized as merely skinny and submissive males as often 
+
+portrayed in the media. Actors such as Ken Jeong, Aziz Ansari and Randall Park 
+
+pioneer the way for more exposure to Asian American males in American culture and 
+
+redefine the conventions of the physicality of masculinity.
+                </p>
+                <p align="left">
+                  “We need change in the future because this society is robbed of the benefits that can be offered if men don’t put forth, or aren’t able to put forth, and invest all that they have in a particular country, culture or location,” Stafford said. “You’re going to have half the power for discovery and for productivity.”
+                </p>
+                </div><!-- #modal-content-1 -->
+
+              <!-- End: Section content to edit --> 
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Text / Generic ==================== -->
+
+        <!-- ==================== SECTION TYPE: Carousel ==================== -->
+        <!-- This type of section should contain slides with an icon, text, and an optional button -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="carousel" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/pride.jpg">
+          <div class="content-wrapper clearfix">
+
+            <!-- Start: Section content to edit -->
+
+              <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
+              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <!-- CAROUSEL SLIDE 1 -->
+                  <div class="item active">
+                    <div class="carousel-text-content">
+                      <!-- start: slide content to edit -->
+                      <img src="assets/images/other_images/spreadBG/lgbt/2b.jpg" class="icon" alt="Lorem Ipsum">
+                      <!-- if you want to use bootstrap glyphicons instead, replace the above <img> with the commented <span> below -->
+                      <!-- <span class="icon glyphicon glyphicon-record"></span> -->
+                      <h1 class="title">The man in the mirror</h1>
+                      <h3> By Alexandria Ng</h3>
+                      <p>Reflections on being transgender in the Asian American community.</p>
+                      <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">read more</a></p>
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                      <div class="content-to-populate-in-modal" id="modal-content-2">
+                        <h1>The man in the mirror</h1>
+                        <p align="left"><img data-img-src="assets/images/other_images/spreadBG/lgbt/2b.jpg" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Reflections on being transgender in the Asian American community. </p>
+                        <p align="left">While other little girls played dress up
+
+                          and pretended to be the Powerpuff 
+
+                          Girls, Manpreet Sekhon, at 7 years old, 
+
+                          longed to be like Goten, a male character in 
+
+                          one of his favorite television shows, Dragon 
+
+                          Ball Z.
+                        </p>
+                        <p align="left">
+                          One night, upon seeing a shooting star, 
+
+                          Sekhon wished that he would become a 
+
+                          boy. Much to his disappointment, it did 
+
+                          not come true the next morning, but it did 
+
+                          trigger the process for his transition from 
+
+                          female to male.
+                        </p>
+                        <p align="left">Sekhon is a 20-year-old transgender 
+
+                            male majoring in computer science and 
+
+                            engineering at Chabot College in Hayward, 
+
+                            California.
+                        </p>
+                        <p align="left">
+                          “It was pretty easy for me to come out, but I 
+
+                          had to build up to it because of my religion 
+
+                          and culture,” Sekhon said. “That was my 
+
+                          biggest obstacle with coming out. It wasn’t 
+
+                          my family making it difficult for me to 
+
+                          transition. It was mostly society, so I’m just 
+
+                          glad I have the support of my family.”
+                        </p>
+                        <p align="left">
+                            His family had a very close bond. His mom 
+
+                            raised him and his three other siblings to 
+
+                            always stick together no matter what and 
+
+                            to always pursue their dreams. She always 
+
+                            had suspicions that Sekhon had an interest 
+
+                            in other girls and confronted him about it at 
+
+                            the age of 12, though at the time, she only 
+
+                            thought Manpreet was lesbian.
+                        </p>
+                        <p align="left">
+                          Sparks reached out to Sekhon’s mother; however, she was not available for comment.
+                        </p>
+                        <p align="left">
+                          Coming from a North Indian Sikh 
+
+                          background, Sekhon said that most of his 
+
+                          pressures came from a culture where people 
+
+                          of the LGBT community would be killed if 
+
+                          they couldn’t change their ways.
+                        </p>
+                        <p align="left">
+                          “They’ll tell you to pray. Just pray it away,”
+
+                          Sekhon said. “But if you can’t change, 
+
+                          you’re killed. They don’t see it as how you 
+
+                          love differently or how you identify yourself 
+
+                          differently. They see it as a type of cancerous 
+
+                          thing.”
+                        </p>
+                        <p align="left">
+                          No matter how much Sekhon tried to
+
+                          push away these feelings though, he could 
+
+                          not, and eventually came out to his fellow 
+
+                          high school classmates as bisexual. Sekhon 
+
+                          thought that as long as he still identified 
+
+                          as female, he would 
+
+                          not stray too far away 
+
+                          from the norm, but he 
+
+                          soon realized that he 
+
+                          was a man.
+                        </p>
+                        <p align="left">
+                            The same day he 
+
+                            came to terms with 
+
+                            his masculinity, his 
+
+                            mother called his 
+
+                            doctor to have him 
+
+                            put on testosterone.In July of his sophomore year in college, he 
+
+                            finally got to cut his hair and dress how he 
+
+                            wanted to.
+                        </p>
+                        <blockquote>
+                            “All you see is Caitlyn Jenner and it’s just really hard, especially for people of color.”
+                        </blockquote>   
+                        <p align="left">
+                          “If I didn’t have [my family’s] support, I 
+
+                          don’t think I would’ve come out,” Sekhon 
+
+                          said. “You need a foundation because when 
+
+                          you feel alone, and there will be so many 
+
+                          times you feel that way, especially in the 
+
+                          world we live in, having someone who’s 
+
+                          physically there and will listen to you and 
+
+                          be there for you in those hard times really 
+
+                          means something.”
+                        </p>
+                        <p align="left">
+                          Although Sekhon’s family accepted his new 
+
+                          identity, Sekhon thought his culture was 
+
+                          staunchly against him because of a long 
+
+                          history where traditions caused people to 
+
+                          fear change. He believed that the Asian 
+
+                          American community in particular was the 
+
+                          biggest opposer to the LGBT community 
+
+                          since they were not well represented in the 
+
+                          public eye.
+                        </p>
+                        <p align="left">
+                          “All you see is Caitlyn Jenner and it’s just 
+
+                          really hard, especially for people of color,” 
+
+                          Sekhon said. “We can’t relate to a rich, white 
+
+                          famous woman. We need somebody we can 
+
+                          relate to so we know how to come out to 
+
+                          our parents or to society and how to handle 
+
+                          it. We need that support and I feel like that 
+
+                          isn’t covered with most of the people who 
+
+                          are out there representing us. I don’t really 
+
+                          even know any other Asian transgender 
+
+                          people because everyone’s scared to come 
+
+                          out, so it must be the culture and traditions.”
+                        </p>
+                        <p align="left">
+                          Although Sekhon
+
+                          said he frequently 
+
+                          feels alone when 
+
+                          dealing with body 
+
+                          dysphoria and others’ 
+
+                          transphobia, he 
+
+                          aims to reach out to 
+
+                          others who are still 
+
+                          closeted in the Asian 
+
+                          American LGBT 
+
+                          community through 
+
+                          social media platforms and involvement in 
+
+                          local Sikh temples. With a desire to push for 
+
+                          change, Sekhon claims that it only takes one 
+
+                          person and a group of supporters to educate 
+
+                          the general public about the transgender 
+
+                          community, as well as an increase of Asian 
+
+                          American leaders who will provide a voice 
+
+                          advocating for LGBT members.
+                        </p>
+                        <p align="left">
+                          “Nobody said it was going to be easy, but the
+
+                          reason why I keep going is because a lot of 
+
+                          people say that transitioning is going to be 
+
+                          difficult,” Sekhon said. “I want to be at the 
+
+                          end and say I did it; this is my experience 
+
+                          and this is what happened. I want to finish 
+
+                          what I started.”
+                        </p>
+                        <p align="left">
+                          *UF APIA Affairs, UF QAPI, seven UF experts and 
+
+                          an Ontario College of Art and Design professor were 
+
+                          asked for their opinion on the subject. They
+
+                          not reply or could not provide input.
+                        </p>
+                      </div><!-- #modal-content-2 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 1 -->
+
+                  
+
+                </div><!-- .carousel-inner -->
+
+                
+
+              </div><!-- #about-carousel -->
+
+            <!-- End: Section content to edit -->
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Carousel ==================== -->
+
+        <!-- ==================== SECTION TYPE: One of Us ==================== -->
+        <!-- This type of section should contain slides with an icon, text, and an optional button -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="oneOfUs" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/spreadBG/oneOfUs/bg.JPG">
+          <div class="content-wrapper clearfix">
+
+            <!-- Start: Section content to edit -->
+
+              <!-- the carousel is initialised in the initialise-functions.js file, using the id of the container .carousel below -->
+              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="70" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <!-- CAROUSEL SLIDE 1 -->
+                  <div class="item active">
+                    <div class="carousel-text-content">
+                      <h1 class="title">One of Us</h1>
+                      <h3> By Nicole Dan</h3>
+                      <p>Including people with disabilities</p>
+                      <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]') -->
+                      <p><a href="" onclick="populate_and_open_modal(event, 'modal-content-2_1');" class="btn btn-outline-inverse btn-sm">read on</a></p>
+
+                      <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                      <div class="content-to-populate-in-modal" id="modal-content-2_1">
+                        <h1>One of Us</h1>
+                        
+                        <p align="left">Matt Wilson considers himself an adrenaline
+                          junkie -- he rock climbs, rides Jet Skis and even
+                          sky dives. Despite his participation in extreme sports,
+                          many consider his most impressive accomplishment
+                          to be putting on his two prosthetic legs.
+                        </p>
+                        <p align="left">
+                          “To me, that’s just a normal thing, ‘cause that’s what
+                          I have to do in order to survive and live,” Wilson
+                          said.
+                        </p>
+                        <p align="left">Wilson, a 20-year-old University of Florida history
+                            major, was born with the VATER association, which
+                            is the combination of physiological symptoms
+                            including cardiac defects and kidney anomalies.
+                            However, his most visible disability was that he was
+                            born without his right leg and that his left leg was
+                            amputated because it had a clubfoot.
+                        </p>
+                        <p align="left">
+                          “It was pretty easy for me to come out, but I 
+
+                          had to build up to it because of my religion 
+
+                          and culture,” Sekhon said. “That was my 
+
+                          biggest obstacle with coming out. It wasn’t 
+
+                          my family making it difficult for me to 
+
+                          transition. It was mostly society, so I’m just 
+
+                          glad I have the support of my family.”
+                        </p>
+                        <p align="left">
+                            Before being adopted by his American family,
+                            Wilson lived in Taiwan for 10 years and witnessed
+                            the stigma that came with his disability Wilson said
+                            he believes that he was put up for adoption because
+                            of it.
+                        </p>
+                        <p align="left">
+                          “I’ve proven them wrong with
+                          my work ethic,” he said
+                        </p>
+                        <p align="left">
+                          Wilson now considers his
+                          adopted family to be his only
+                          family, and is not currently
+                          interested in reconnecting
+                          with his family in Taiwan.
+                          His family has taught him to
+                          be independent by teaching
+                          him to cook, do laundry and
+                          budget. This independence
+                          has driven him to aspire to be
+                          a contract lawyer in a
+                          major city
+                        </p>
+                        <p align="left">
+                            For 23-year-old
+                            Bryn Mawr alumnus
+                            Esther Chiang
+                            it’s not her ablebodied
+                            family, but
+                            her developmentally
+                            disabled older
+                            brother who taught
+                            her about the world.
+                        </p>
+                        <blockquote>
+                            “I think the model minority
+                            myth is so detrimental to
+                            the disability community
+                            because it implies that we’re
+                            always OK all the time.”
+                        </blockquote>   
+                        <p align="left">
+                          Chiang’s brother, Nathan
+                          Chiang, has Down syndrome
+                          and is also partially deaf. His
+                          intellectual disabilty caused
+                          him to be discriminated
+                          against by other Asians due
+                          to cultural stigma,
+                          Chiang said.When
+                          her family goes out
+                          in public, she said
+                          other Asians often
+                          look down on her
+                          family because of her
+                          brother’s disability.
+                        </p>
+                        <p align="left"><img data-img-src="assets/images/other_images/spreadBG/oneOfUs/e2.JPG" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum"></p>
+                        <p align="left">
+                          “They don’t go out
+                          of their way to love
+                          and accept him, and
+                          they don’t see him as
+                          human,” she said.
+                        </p>
+                        <p align="left">
+                          Chiang said that the
+                          model minority myth
+                          is to blame. because
+                          it hides problems in
+                          the Asian American
+                          community and
+                          prevents them from
+                          accessing resources.
+                        </p>
+                        <p align="left">
+                          Especially given language barriers.
+                        </p>
+                        <p align="left">
+                          “I think the model minority
+                          myth is so detrimental to the
+                          disability community because
+                          it implies that we’re always
+                          OK all the time.”
+                        </p>
+                        <p align="left">
+                          According to Chiang, when
+                          her brother was born, her
+                          mom was given pamphlets
+                          that were only in English,
+                          which meant that her mother
+                          and brother had to fly back to
+                          Taiwan to learn about what
+                          Down syndrome was. But
+                          Chiang knows that if they
+                          lived in Taiwan, getting any
+                          kind of help would be out of
+                          the question.
+                        </p>
+                        <p align="left">
+                         “They would never be able to
+                          take my brother to Taiwan
+                          because there’s no government
+                          resources supporting that,”
+                          Chiang said. “There’s no
+                          cultural understanding about
+                          what it means to have a
+                          disability.
+                        </p>
+                        <p align="left">
+                          Having a sibling with a disability influenced the way that Chiang was brought up.
+                        </p>
+                        <p align="left">
+                          Chiang said her parents did
+                          not hold her and her brother to
+                          the same academic standards
+                          because they felt that it
+                          wouldn’t be fair. But, she said
+                          that other people may have
+                          had the opposite experience,
+                          where they had heightened pressure due to their sibling’s disability.
+                        </p>
+                        <p align="left">
+                          “There’s a lot of like, hurt, and
+                          pain that a lot of siblings don’t
+                          talk about a lot.”
+                        </p>
+                        <p align="left">
+                            “I wish I could have said to them, like ‘I’m sad, I’m sad that
+                            these things happened, and
+                            I’m sad about a lot of things
+                            that happened in my life that
+                            I wasn’t able to mourn because
+                            I had to be strong,’”
+                            she said.
+                        </p>
+                        <p align="left">
+                          Dr. Peter Wong,
+                          research director at
+                          Asian and Pacific
+                          Islanders with
+                          Disabilities of
+                          California (APIDC),
+                          said that families are
+                          an important support
+                          system, especially for
+                          immigrants.
+                        </p>
+                        <p align="left">
+                          Wong has researched how
+                          Asian Pacific Islander
+                          Americans (APIAs) with
+                          disabilities struggle within the
+                          U.S. to gain jobs and access
+                          resources and found that
+                          APIAs with disabilities in
+                          California had an employment
+                          rate of 27.4 percent, a rate
+                          lower than Hispanics with
+                          disabilities (38.2 percent)
+                          or African Americans with
+                          disabilities (31.7 percent).
+                        </p>
+                        <p align="left">
+                          “Individuals with disabilities
+                          are not looked at as someone
+                          who could be productive,”
+                          Wong said.
+                        </p>
+                        <p align="left">
+                          Wong has noticed over the
+                          years, that data on Asian
+                          Americans with disabilities is
+                          sparse and they are considered
+                          a hard-to-reach population.
+                          As a result, there is little
+                          research done about them
+                          and few programs available to
+                          them specifically.
+                        </p>
+                        <p align="left">
+                          For those who are unable
+                          to be independent, the U.S.
+                          government does provide
+                          resources, but often, APIAs
+                          cannot access them either
+                          because of language or cultural
+                          barriers, much like the Chiang
+                          family’s experience. Chiang
+                          also acknowledges this
+                          importance and has started
+                          a project called ReimAgine
+                          Ability, in order to create
+                          a community of people
+                          who have disabilities, or are
+                          family members or friends of
+                          people who have disabilities,
+                          especially for those from
+                          cultures that might not be
+                          disability-friendly.
+                        </p>
+                        <p align="left">
+                          The site’s mission is to
+                          reimagine what ability can
+                          look like, which also means
+                          acknowledging mental illness
+                          as a component of ability, and
+                          to examine the relationship
+                          between culture, religion and
+                          disability. Chiang wanted to
+                          see if the acceptance brought
+                          on by her parents’ Christianity
+                          also happened in other
+                          religions.
+                        </p>
+                        <p align="left">
+                          “My parents would never have
+                          accepted my brother unless
+                          they were Christian,” Chiang
+                          said. “I think one of the
+                          biggest reasons they wanted to
+                          love my brother and really see
+                          him as human and treat him
+                          really well was because of their
+                          relationship with God.
+                        </p>
+                        <p align="left">
+                          Chiang acknowledges the
+                          huge influence her brother has
+                          had on her life, and she wants
+                          others to find the humanity in
+                          her brother.
+                        </p>
+                        <p align="left">
+                          “He deserves love like any
+                          other person,” Chiang said. “In
+                          some ways it’s so basic -- but
+                          so radical.”
+                        </p>
+                        
+                      </div><!-- #modal-content-2 -->
+                      <!-- end: slide content to edit -->
+                    </div>
+                  </div><!-- .item -->
+                  <!-- END: CAROUSEL SLIDE 1 -->
+
+                  
+
+                </div><!-- .carousel-inner -->
+
+                
+
+              </div><!-- #about-carousel -->
+
+            <!-- End: Section content to edit -->
+
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Carousel ==================== -->
+
+        <!-- ==================== SECTION TYPE: Featured Items ==================== -->
+        <!-- This type of section should contain a max. of 3 items each consisting of an image and text. Each item may be linked -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="fashion" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/spreadBG/fashion/bg.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-11 pull-right">
+
+              <!-- Start: Section content to edit -->
+
+                <h1 class="section-title">Empress Rising</h1>
+                
+                <h3><a href="http://www.dannynguyencouture.com/home">Danny Nguyen's</a> spring 2016 collection</h3>
+
+                <blockquote>
+                  Styled By: Kevin Huynh</br>
+                  Photos By: Jasmine-Wildflower Osmond</br>
+                  Model: Stephanie Wong</br>
+                  Makeup: Eunice Jin</br>
+                  Fashion assistant: Joey Gonzalez
+                </blockquote>                <!-- feature columns -->
+                <section class="feature-columns row clearfix">
+                  <!-- FEATURED ITEM 3 -->
+                  <article class="feature-col col-md-6 col-md-offset-3"">
+                    <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]', '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                    <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-8', '', 'full-size');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="assets/images/other_images/spreadBG/fashion/4.jpg" class="lazy item-thumbnail" alt="Lorem Ipsum">
+                      </div>
+                      <div class="caption">
+                        <h5>Gallery</h5>
+                        <p align="left">Click to view the fashion gallery.</p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+
+                    <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                    <div class="content-to-populate-in-modal" id="modal-content-8">
+                      <h1>Empress Rising</h1>
+                      <p align="left">Houston-based designer Danny
+                          Nguyen, from
+                          Danny Nguyen
+                          Couture, graciously
+                          loaned gowns from his Spring
+                          2016 collection for Sparks’
+                          first fashion spread.
+                          DNC specializes in customdesigned
+                          apparel, weddings
+                          and alterations for celebrity
+                          clients including Jeannie Mai
+                          and Amanda Lepore. Nguyen
+                          is known for taking motifs
+                          familiar with Asian dresses
+                          such as the Ao Dai and Qipao
+                          and giving them a sultry,
+                          modern Hollywood twist fit
+                          for any screen siren -- think
+                          floral appliques, metallic
+                          sequins and silk capes.
+                      </p>
+                      <p align="left">
+                        Nguyen got his start in fashion at an early age, acting as an apprentice to his mother
+                        in her tailor shop. They moved
+                        to the U.S. from Vietnam
+                        when he was 4 years old and
+                        after years of failed starts, he
+                        successfully launched DNC.
+                      </p>
+                      <p align="left">
+                        Nguyen said he designs his
+                        collections to have a cohesive
+                        theme, but likes each outfit
+                        to be like a character in
+                        a movie, which was our
+                        inspiration. Shot in the Asian
+                        rock garden in the Cofrin
+                        Asian Art wing of the Harn
+                        Museum of Art, we wanted
+                        to showcase gowns that were
+                        worthy enough to attend the
+                        Hollywood premiere of “The
+                        Hunger Games” but also look
+                        as if they were borrowed from
+                        Zhang Yimou’s “Curse of the
+                        Golden Flower.”
+                      </p>
+                      <!-- alt image slider inside popup -->
+                      <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                      <!-- every Owl Carousel with class .popup-alt-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js) -->
+                      <div id="unique-id-for-alt-image-slider" class="owl-carousel popup-alt-image-gallery">
+                        <div class="item"><a href="assets/images/other_images/spreadBG/fashion/1.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/spreadBG/fashion/1.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/spreadBG/fashion/2.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/spreadBG/fashion/2.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/spreadBG/fashion/3.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/spreadBG/fashion/3.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/spreadBG/fashion/5.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/spreadBG/fashion/5.jpg"></a></div>
+                        <div class="item"><a href="assets/images/other_images/spreadBG/fashion/6.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/spreadBG/fashion/6.jpg"></a></div> 
+                  
+                        <div class="item"><a href="assets/images/other_images/spreadBG/fashion/7.jpg" data-lightbox="popup-alt-gallery"><img class="lazyOwl" data-src="assets/images/other_images/spreadBG/fashion/7.jpg"></a></div>
+                        
+                      </div>
+                    </div><!-- #modal-content-8 -->
+
+                  </article>
+                  <!-- END: FEATURED ITEM 3 -->
+
+                </section><!-- end: .feature-columns -->
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== END: SECTION TYPE: Featured Items ==================== -->
+
+        <!-- ==================== SECTION TYPE: Tabs ==================== -->
+        <!-- This type of section should contain generic content in tabs -->
+        <!-- More information about Bootstrap Tabs can be found on http://getbootstrap.com/javascript/#tabs -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="tabs" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/spreadBG/solidarity/bg2.PNG">
+          <div class="content-wrapper mid-vertical-positioning clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+                <h1 class="section-title">Minority Solidarity</h1>
+                <h3>By Kyra Clark</h3>
+                <div class="tabpanel styled-tabs uniform-height" role="tabpanel">
+
+                  <!-- Nav tabs -->
+                  <!-- The "text-hidden-xs" attribute determines whether to show or hide tab text on mobile vieports ("true" - text is hidden) -->
+                  <ul class="nav nav-tabs" role="tablist" text-hidden-xs="true">
+                    <!-- Each tab should be structure as follows. Link href should be unique and match the ID of the respective tab-pane below. It has to match also with the "aria-controls" attribute. -->
+                    <!-- <i> represents the tab icon, <span> represents the tab text. -->
+                    <!-- The tab with <li class="active"> is the tab which is enabled by default -->
+                    <li role="presentation" class="active"><a href="#tabs-tab1" aria-controls="tabs-tab1" role="tab" data-toggle="tab"><i class="fa fa-list-ol"></i><span>  1</span></a></li>
+                    <li role="presentation"><a href="#tabs-tab2" aria-controls="tabs-tab2" role="tab" data-toggle="tab"><i class="fa fa-list-ol"></i><span>  2</span></a></li>
+                    <li role="presentation"><a href="#tabs-tab3" aria-controls="tabs-tab3" role="tab" data-toggle="tab"><i class="fa fa-list-ol"></i><span>  3</span></a></li>
+                    <li role="presentation"><a href="#tabs-tab4" aria-controls="tabs-tab4" role="tab" data-toggle="tab"><i class="fa fa-list-ol"></i><span>  4</span></a></li>
+                  </ul>
+
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+
+                    <!-- Each tab pane is contained in the .tab-pane container with the following structure. Its ID should be unique and match with the tab link above -->
+                    <!-- It make container all generic content (text, images, etc). To initialise functions after tab-pane is shown, you need to use Events which are described in the documentation. -->
+                    <!-- The tab which is enabled by default should include these classes: "in active" -->
+                    <div role="tabpanel" class="tab-pane fade in active" id="tabs-tab1">
+                     
+                      <p align="left">
+                        But Frederick Wong, a University
+                        of Florida healthcare administration
+                        graduate is involved with the Black Lives
+                        Matter movement by attending local
+                        rallies with his friends.
+                      </p>
+                      <p align="left">
+                        “We [Asian Americans] assimilate much
+                        better than other ethnic groups into
+                        this so-called greater American society,”
+                        Wong said. “I think we are going in
+                        the right direction with the focus being
+                        on the African Americans’ community
+                        because, as a whole, that one group needs
+                        the most help.”
+                      </p>
+                      <p align="left">Wong, who is of Chinese American
+                        heritage, said that although the Black
+                        Lives Matter movement is the focus of
+                        minority rights, he said he believes that
+                        the strength of this movement could
+                        eventually empower other minorities to gain their own rights in this country.
+                      </p>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane fade" id="tabs-tab2">
+                      
+                      <p align="left">Throughout the years, groups of different minorities have joined sides with the
+                      movement in an example of unity, rallying
+                      in the name of justice for the black
+                      community
+                      </p>
+                      <p align="left">
+                        Nyla Duperval, president of the
+                        National Council of Negro Women at
+                        the University of Central Florida and a
+                        junior health informatics and information
+                        management major, sees this shared bond firsthand as she has been involved with
+                        programs on campus, such as the March
+                        for Justice, where a diverse student body
+                        came to participate
+                      </p>
+
+                      <p align="left">
+                        Nyla Duperval, president of the
+                        National Council of Negro Women at
+                        the University of Central Florida and a
+                        junior health informatics and information
+                        management major, sees this shared bond firsthand as she has been involved with
+                        programs on campus, such as the March
+                        for Justice, where a diverse student body
+                        came to participate
+                      </p>
+                      <blockquote>                
+                        “The United States as a whole is not just
+                        one race or one ethnicity,” she said. “It
+                        is a melting pot, so definitely having all
+                        those aspects of that melting pot coming
+                        together is really going to make the
+                        movement even stronger than what it is
+                        now.”
+                      </blockquote>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane fade" id="tabs-tab3">
+                      <p align="left">                
+                        When asked about her opinion on the
+                        importance of other minority ethnicities
+                        participating in the Black Lives Matter
+                        movement, Duperval said that minority
+                        involvement keeps people up-to-date
+                        on what’s going on. “I think it is a very important movement, especially right now with what’s going on
+                      </p>
+                      <p align="left">
+                        Seminole State College of Florida
+                        sociology professor Felix Padilla has
+                        published multiple books regarding social
+                        issues of minorities in America and finds
+                        the solidarity between Asian Americans
+                        and African Americans both productive
+                        and intriguing.
+                      </p>
+                      <p align="left">
+                        Padilla said that by having Asian
+                        Americans back up blacks in their fight
+                        against inequality, the Asian American
+                        community is undermining the model
+                        minority stereotype that is often used
+                        to disqualify minorities like blacks and
+                        Hispanics
+                      </p>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane fade" id="tabs-tab4">
+                      <p align="left">
+                        “What I find so intriguing about the
+                        Asian American support for Black Lives
+                        Matter is that our society has labeled
+                        the Asian American community as the
+                        ‘model minority’ but by labeling the Asian
+                        American community under that label -
+                        it’s also a critique of the black and Hispanic
+                        communities,” Padilla said, referring to
+                        how the Asian American community has
+                        constantly been spotlighted as the ‘ideal’
+                        minority through American culture.
+                      </p>
+                      <p align="left">
+                        “I think the Asian American community,
+                        by supporting Black Lives Matter and
+                        supporting other initiatives of people of
+                        color, are also making a statement,” Padilla
+                        said. “They’re saying, in many words, that
+                        ‘in spite of how you label us, we are not
+                        willing to remain outside the efforts of overcoming inequality.’”
+                      </p>
+                      <p align="left">
+                        The Asian American community
+                        continues to lend strong support to
+                        the efforts of the Black Lives Matter
+                        movement through rallies as well as
+                        creating its own means of support through
+                        the hashtag, #Asians4BlackLives, which
+                        emerged after the deaths of Michael
+                        Brown and Eric Garner.
+                      </p>
+                      <p align="left">
+                        “I think it is beautiful,” Peter Yane, a UCF
+                        biomedical science freshman, said of the
+                        social media campaign. “This certainly has
+                        shown how long of a way a simple hashtag
+                        can influence an entire movement.”
+                      </p>
+                    </div>
+                    
+                  </div><!-- .tab-content -->
+
+                </div><!-- .tabpanel -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->  
+        <!-- ==================== END: SECTION TYPE: Tabs ==================== -->
+
+        <!-- ==================== SECTION TYPE: Contact ==================== -->
+        <!-- This type of section should contain text (contact details) and a contact form -->
+        <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+        <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/spreadBG/innerCover.jpg">
+          <div class="content-wrapper clearfix">
+
+              <!-- Start: Section content to edit -->
+            
+              <h1 class="section-title">Download</h1>
+              
+                <!-- CONTACT DETAILS -->
+                <div class="contact-details col-sm-5 col-md-3">
+                </br>
+                  <h3><a href="http://www.sparks-mag.com/">Sparks Magazine</a></h3>
+                  <p>University of Florida</p>
+                  <p><a href="mailto:editor@sparks-mag.com">Email Us</a></p>
+                  <p><a href="Issue_9.pdf" class="link-scroll btn btn-outline-inverse btn-lg">Download Full Magazine</a></p>
+                </div>
+                <!-- END: CONTACT DETAILS -->                  
+                <div class="col-sm-7 col-md-9">
+                  <a href="Issue_9.pdf""><img class ="pull-right" src ="assets/images/other_images/spreadBG/magazineCover.PNG"></a>
+              <!-- End: Section content to edit -->
+                </div>
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+        <!-- ==================== ENDL SECTION TYPE: Contact ==================== -->
+
+      </section><!-- #main-content -->
+      <!-- ==================== END: MAIN CONTENT ==================== -->
+
+      <!-- Footer -->
+      <section id="footer">
+
+        <!-- Go to Top -->
+        <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+        <!-- ==================================================================
+        SOCIAL ICONS
+        ==================================================================  -->
+        <!-- Each social icon item consists of the following:
+             - Link to the social page in href of <a>
+             - social icon in the <img> - a list of social icons options are found in the directory assets/images/theme_images/social_icons/ -->
+        <ul class="social-icons">
+          <li><a href="http://www.sparks-mag.com/" target="_blank" title="Sparks Website"><i class="fa fa-desktop"></i></a></li>        
+          <li><a href="https://www.facebook.com/sparksmagazine/" target="_blank" title="Facebook"><img src="assets/images/theme_images/social_icons/facebook.png" alt="Facebook"></a></li>
+          <li><a href="https://twitter.com/sparks_magazine" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+        <!-- ==================== END: Social Icons ==================== -->
+
+        <!-- copyright text -->
+        <div class="footer-text-line">&copy; <a href="http://xiaoxizheng.github.io/" target="_blank" title="Xiaoxi's Website">2016 Xiaoxi | Zheng </a></div>
+      </section>
+      <!-- end: Footer -->      
+
+    </div><!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="modal-body clearfix">
+          </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- .modal -->    
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="assets/js/vegas/jquery.vegas.min.js"></script>
+
+    <!-- detect mobile browsers -->
+    <script src="assets/js/detectmobilebrowser.js"></script>
+
+    <!-- detect scrolling -->
+    <script src="assets/js/jquery.scrollstop.min.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- lightbox js -->
+    <script src="assets/js/lightbox/js/lightbox.min.js"></script>
+
+    <!-- intro animations -->
+    <script src="assets/js/wow/wow.min.js"></script>
+
+    <!-- responsive videos -->
+    <script src="assets/js/jquery.fitvids.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->  
+
+  </body>
+</html>
